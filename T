@@ -1,0 +1,90 @@
+Berapa sih Harga Untuk membuat Token ETH Dengan Komposisi seperti inin,Token Features:
+
+Main owner wallet with full administrative control.
+Special wallet that allows fee-free transfers and can be used to stabilize token price: 0xE0FB20c169d6EE15Bb7A55b5F71199099aD4464F
+Transfer Fee / Buy Fee / Sell Fee system with treasury allocation (treasury wallet: 0x095C20E1046805d33c5f1cCe7640F1DD4b693a49) and optional burn functionality.
+Flexible minting and burning of tokens.
+Owner tokens time-locked until early 2027.
+Vesting schedule for individual wallets.
+Max transaction limit to prevent whales from large transfers.
+Pausable contract for emergency stop of all transactions.
+Anti-bot / anti-snipe measures during initial launch period.
+Maximum sell limit per transaction.
+Cooldown period between consecutive transactions for the same wallet.
+Dynamic fee system that adjusts based on market activity and volume.
+Reward / reflection system for token holders.
+Auto-liquidity mechanism where a portion of fees is added to liquidity pools.
+Blacklist / Freeze wallet functionality for security or compliance.
+Governance system with on-chain voting framework.
+Upgradeable contract ready for proxy deployment.
+Snapshot / Dividend system for holders to distribute rewards.
+Staking support for additional holder rewards.
+Multi-liquidity pool support for cross-exchange liquidity management.
+Emergency upgrade or migration mechanism.
+Customizable launch parameters including high initial fees, strict max sell limits, and extended cooldown periods.
+Complete event logging and transparency: FeeTaken, SpecialTransfer, VestingSet, FreezeWallet, RewardDistributed, LiquidityAdded, DynamicFeeChanged, Stake/Unstake, SnapshotDistributed.
+
+
+
+
+Token Parameters:
+
+Name: BIAWAK
+Symbol: BWK
+Total supply: 1,000,000,000 BWK
+Decimals: 18
+Treasury wallet: 0x095C20E1046805d33c5f1cCe7640F1DD4b693a49
+Special wallet: 0xE0FB20c169d6EE15Bb7A55b5F71199099aD4464F
+Owner wallet: msg.sender (deploying wallet)
+Owner token unlock time: 1 January 2027 (timestamp 1672531200)
+
+
+
+
+Initial Token Price & Launch Strategy:
+
+Target Price: 1 BWK = 50,000 IDR (~3.33 USD assuming 1 USD ≈ 15k IDR)
+Mechanism:
+Provide initial liquidity on a DEX (Uniswap, PancakeSwap, etc.)
+Deposit BWK tokens + ETH/USDT equivalent to 50,000 IDR per token
+Adjust treasury and special wallet balances to stabilize price and provide fee-free transactions
+Use dynamic fees and anti-bot measures to prevent price manipulation during initial launch
+
+Optional Presale:
+Allocate tokens for presale at target price
+Lock liquidity temporarily to maintain stability
+
+
+
+
+
+Visual Branding Concept:
+
+Modern, futuristic crypto theme with bold, professional look.
+Mascot-style monitor lizard (BIAWAK) representing the token.
+Vibrant green (#00FF66) and yellow (#FFD700) colors.
+Scalable as circular token icon and rectangular banner for social media, wallets, and blockchain explorers.
+Include branding elements representing: security, governance, staking, rewards, liquidity, and advanced DeFi features.
+Metadata Description for AI / Marketing:{
+  "name": "BIAWAK",
+  "symbol": "BWK",
+  "description": "BIAWAK (BWK) is a next-generation DeFi token featuring advanced tokenomics, staking, governance, rewards, dynamic fees, and liquidity management. With a futuristic monitor lizard mascot, BWK represents security, growth, and stability. The token targets a launch price of 50,000 IDR per coin through carefully designed initial liquidity and fee mechanisms.",
+  "image": "ipfs://<link-to-lizard-icon>",
+  "attributes": [
+    {"trait_type": "Total Supply", "value": "1,000,000,000 BWK"},
+    {"trait_type": "Decimals", "value": 18},
+    {"trait_type": "Treasury Wallet", "value": "0x095C20E1046805d33c5f1cCe7640F1DD4b693a49"},
+    {"trait_type": "Special Wallet", "value": "0xE0FB20c169d6EE15Bb7A55b5F71199099aD4464F"},
+    {"trait_type": "Owner Unlock Date", "value": "2027-01-01"},
+    {"trait_type": "Max Transaction", "value": "1%"},
+    {"trait_type": "Max Sell", "value": "0.5%"},
+    {"trait_type": "Transfer Fee", "value": "2%"},
+    {"trait_type": "Burn Fee", "value": "1%"},
+    {"trait_type": "Target Launch Price", "value": "50,000 IDR"}
+  ]
+}.  Catatan Tambahan:
+
+Semua fitur asli tetap dipertahankan.
+Harga target 50,000 IDR/token diatur melalui initial liquidity pool dan special wallet stabilization.
+Metadata dan branding siap digunakan untuk AI documentation, marketing, dan social media.
+Cocok untuk deployment di Remix atau framework lain (Hardhat, Foundry).
